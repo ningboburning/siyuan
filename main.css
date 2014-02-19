@@ -26,17 +26,19 @@ div#content  {
 }
 div#nav {
 	width: 100%;
-	#position: fixed;
+	position: absoluted;
 	#margin-top: 80px;
 	# background-color: #6D139C;
-	# background-color: #FF9900;
-	background:-moz-linear-gradient(#FF9900, #EE4D00) repeat scroll 0 0 transparent;
+	background-color: #FF9900;
+	# background:-moz-linear-gradient(#FF9900, #EE4D00) repeat scroll 0 0 transparent;
 	height:40px;
 	#border: 1px solid #CCCCCC;
 	#border-radius: 0.5em;
 	font: 14px/1.5 tahoma,arial,ËÎÌו;
 	font-family: Verdana,Arial,Helvetica,sans-serif;
 	font-weight: bold;
+	margin: 0px;
+	left: 0px;
 }
 div #nav_content {
 	width: 960px;
@@ -57,7 +59,6 @@ ul {
 }
 
 #nav li {
-	#padding: 0 20px;
 	float: left;
 	# width: 120px;
 	list-style: none;
@@ -65,23 +66,23 @@ ul {
 }
 
 #nav li a {
-	padding: 8px 30px;
-	border-left: 1px solid #FF9600;
+	padding: 8px 28px;
+	border-left: 1px solid #B2B2B2;
 }
 
 #nav li:last-child a {
-	border-right: 1px solid #FF9600;
+	border-right: 1px solid #B2B2B2;
 }
 
 #nav li:hover {
-	background-color: #99FF00;
-	border-radius: 0.2em;
+	background-color: #00A8FF;
+	#border-radius: 0.2em;
 	#color: #FF9900;
-	color: #0099FF;
+	#color: #0099FF;
 }
 
 #intro_menu ul {
-	padding: 20px;
+	#padding: 20px;
 	font-size: 14px;
 	font-weight: bold;
 }
@@ -107,7 +108,7 @@ a {
 }
 
 #nav a:hover ,a:hover{
-	color: #0099FF;
+	#color: #0099FF;
 }
 
 #service {
