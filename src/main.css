@@ -180,6 +180,9 @@ p {
 	padding: 10px 32px;
 	#border-top: 2px solid #90FFCC;
 	border-top: 1px inset #90FFCC;
+	font: 14px/1.5 tahoma,arial,ËÎÌו;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	line-height: 28px;
 }
 
 #intro_menu {
