@@ -115,13 +115,15 @@ a {
 }
 
 #service_2 {
-	min-height:110px;padding:0 10px;border-right:1px solid #CCCCCC;
-	border-top:1px solid #CCCCCC;
+	min-height:120px;padding:0 10px;border-right:1px solid #CCCCCC;
+	border-top:1px solid #6699FF;
+	border-bottom:1px solid #6699FF;
 }
 
 #service_3 {
-	min-height:110px;padding:0 10px;
-	border-top:1px solid #CCCCCC;
+	min-height:120px;padding:0 10px;
+	border-top:1px solid #6699FF;
+	border-bottom:1px solid #6699FF;
 }
 
 #name {
@@ -207,6 +209,7 @@ p {
 .seleted a {
 	color: #FF9966;
 }
+
 .page_title {
 	font-weight: bold; 
 	width: 960px; 
