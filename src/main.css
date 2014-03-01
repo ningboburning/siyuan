@@ -207,9 +207,13 @@ p {
 .seleted a {
 	color: #FF9966;
 }
-
+.page_title {
+	font-weight: bold; 
+	width: 960px; 
+	margin: 0px auto;
+}
 .title_style {
-	padding:26px 0 0 214px;
+	padding:26px 0 0 14px;
 }
 
 #footer a {
