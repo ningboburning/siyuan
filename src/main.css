@@ -4,18 +4,20 @@ html {
 body {
 	# background-image: url("header7.jpg");
 	background-color: #DDEAEA;
-	background: linear-gradient(#DDEAEA, #EADDDA) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	#background: linear-gradient(#DDEAEA, #EADDDA) repeat scroll 0 0 rgba(0, 0, 0, 0);
 	# EADDDA
 	# width: 960px;
 	margin: 0 auto;
 	min-height:500px;
 }
 div#header  {
-	width: 100%;
-	height:100px;
+	margin: 0 auto;
+	# width: 960px;
+	height:120px;
 	border-bottom: 6px solid #00A8FF;
-	background-image: url("header.jpg");
+	background-image: url("header1.jpg");
 	# background-color: #FFFFFF;
+	background-position: center -14px;
 }
 div#content  {
 	width:960px;
@@ -28,7 +30,7 @@ div#nav {
 	position: absoluted;
 	#margin-top: 80px;
 	# background-color: #6D139C;
-	background-color: #FF9900;
+	background-color: #FF0099;
 	# background:-moz-linear-gradient(#FF9900, #EE4D00) repeat scroll 0 0 transparent;
 	height:40px;
 	#border: 1px solid #CCCCCC;
@@ -216,7 +218,7 @@ p {
 	margin: 0px auto;
 }
 .title_style {
-	padding:26px 0 0 14px;
+	padding:14px 0px 0px 28px;
 }
 
 #footer a {
